@@ -7,14 +7,12 @@ const Header = () => {
         <>
             <header className="Header">
                 <div className="row">
-                    <div className="column2">
                         <div className="column">
                             <img className="icone" src={img} alt="" />
                         </div>
-                        <div className="column">
+                        <div className="column2">
                             <h2>Clínica Dentária</h2>
                         </div>
-                    </div>
                 
 
                 <div className="column nav">Tratamentos</div>
