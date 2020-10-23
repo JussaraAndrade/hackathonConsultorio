@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Carousel from "./components/Caroussel";
 import './App.css';
 
 function App() {
