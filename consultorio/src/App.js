@@ -1,14 +1,19 @@
-import React from 'react';
-// import logo from './logo.svg';
+
 import './App.css';
-import Header from '../../../hackathonConsultorio/consultorio/src/components/Header';
+import Footer from '../src/components/Footer'
+import Servicos from './components/Servicos';
 
 function App() {
   return (
-      <>
-        <Header/>
-      </>
-    );
+
+     <>
+     <Header/>
+    <Servicos/>
+    <Carousel/>
+    <Footer/>
+     </>
+   
+  );
 }
 
 export default App;
