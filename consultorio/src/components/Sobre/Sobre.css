@@ -1,0 +1,61 @@
+section.sobre{
+    background-color: #42ba85;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+} 
+
+h3{
+    color: #FFF;
+    width: 80%;
+    padding: 10px;
+    background-color: #318560;
+    border-radius: 10px ;
+}
+
+section.sobre div.texto-informativo{
+    width: 400px;
+    color: #FFF;
+}
+
+section.sobre div.img-sobre{
+    width: 400px;
+}
+
+section.sobre div.contato{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4dda9d;;
+    border-radius: 5px;
+    display: flex;;
+
+}
+
+section.sobre div.contato form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 50px;
+}
+
+section.sobre div.contato form input, select, option{
+    padding: 10px;
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+section.sobre div.contato form input.btnEnviar{
+     background-color: #318560;
+    color: #FFF;
+    transition: 0.2s;
+}
+section.sobre div.contato form input.btnEnviar:hover{
+    background-color: #6991F4;
+    cursor: pointer;
+}
