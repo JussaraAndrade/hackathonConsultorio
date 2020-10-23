@@ -1,0 +1,47 @@
+footer{
+    bottom:0;
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(59,99,162);
+    height: 250px;
+    position: fixed;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.caixa-1{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    padding-left: 100px;
+}
+
+.caixa-2{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+}
+
+.caixa-3{
+    height: 200px;
+    width: 360px;
+    margin: 20px;
+    border-style:solid ;
+    padding: 10px;
+    border-radius: 25px;
+    background: white;
+    
+}
+h2{
+    color: white;
+}
+
+.h2-color{
+    color: black;
+}

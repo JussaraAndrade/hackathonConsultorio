@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import Carousel from "./components/Carousel";
+
 import './App.css';
+import Footer from '../src/components/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <>
-      <Carousel/>
-      </>
-    </div>
+
+     <>
+    <Carousel/>
+    <Footer/>
+     </>
+   
   );
 }
 
