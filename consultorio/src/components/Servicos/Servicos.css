@@ -1,0 +1,80 @@
+.Tratamentos{
+    box-sizing: border-box;
+    background-color: #ccd2d2;
+    padding: 1% 0;
+}
+
+.Tratamentos h1{
+    color: white;
+    text-align: center;
+}
+
+.Tratamentos .box-1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.Tratamentos .box-1 .trat{
+    box-sizing: border-box;
+    display: flex; flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+.Tratamentos .box-1 .trat .imagem{
+    width: 350px; height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Tratamentos .box-1 .trat p{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.Tratamentos .box-1 .profilaxia .imagem{
+    background-image: url("../../images/profilaxia.jpg");
+}
+.Tratamentos .box-1 .clareamento .imagem{
+    background-image: url("../../images/clareamento.jpg");
+}
+.Tratamentos .box-1 .implante .imagem{
+    background-image: url("../../images/implante.jpg");
+}
+
+.Tratamentos .box-2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% auto;
+}
+.Tratamentos .box-2 .trat{
+    box-sizing: border-box;
+    display: flex; flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+.Tratamentos .box-2 .trat .imagem{
+    width: 350px; height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Tratamentos .box-2 .trat p{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.Tratamentos .box-2 .aparelho .imagem{
+    background-image: url("../../images/aparelho.jpg");
+}
+.Tratamentos .box-2 .crianca .imagem{
+    background-image: url("../../images/crianca.jpg");
+}
+.Tratamentos .box-2 .mau-halito .imagem{
+    background-image: url("../../images/mau-halito.jpg");
+}
