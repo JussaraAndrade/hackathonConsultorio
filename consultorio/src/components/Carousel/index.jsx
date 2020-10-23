@@ -1,15 +1,15 @@
 import React from "react";
-import img from "../../../public/img";
+import img from "../../asset/smile1.jpg";
 
 const Carousel = ()=>{
     return (
       <>
       <h1>Carousel</h1>
        <div>
-          <image src={smile1} />
-          <image src={smile1} />
-          <imaage src={smile1} />
-      </div> */
+          <img src={img} />
+          <img src={img} />
+          <img src={img} />
+      </div> 
       </>
     )
 

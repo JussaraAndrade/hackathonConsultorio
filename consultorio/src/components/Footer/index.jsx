@@ -9,7 +9,7 @@ const Footer = () =>{
                     <h2>Avaliação Dentista</h2>
                     <ul>
                     <li>
-                    Avaliação Dentista
+                    Clareamento Dentário
                     </li>
                     <li>
                     Limpeza

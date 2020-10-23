@@ -8,6 +8,9 @@
     align-items: center;
 }
 
+h2{
+    color: black;
+}
 .column2{
     height: 100%;
     display: flex;

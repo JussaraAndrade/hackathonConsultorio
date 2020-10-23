@@ -1,13 +1,12 @@
 footer{
     bottom:0;
-    width:100%;
+    width:1468px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(59,99,162);
-    height: 250px;
-    position: fixed;
+    height: 300px;
     flex-wrap: wrap;
     align-items: center;
     display: flex;
@@ -32,10 +31,11 @@ footer{
     height: 200px;
     width: 360px;
     margin: 20px;
-    border-style:solid ;
+    border-style:solid;
     padding: 10px;
     border-radius: 25px;
     background: white;
+    
     
 }
 h2{
@@ -45,3 +45,4 @@ h2{
 .h2-color{
     color: black;
 }
+
